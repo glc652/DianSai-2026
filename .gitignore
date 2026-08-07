@@ -1,0 +1,17 @@
+.pio/
+.pio
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+
+.DS_Store
+Thumbs.db
+
+compile_commands.json
+.vscode/.browse_c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch/

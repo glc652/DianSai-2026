@@ -1,0 +1,14 @@
+vision_rpi_2026-08-01_mode3_inverse_green_checkpoint
+Package date: 2026-08-01
+Source state: current working tree (uncommitted checkpoint)
+
+Included changes:
+- Mode2/3 shared gapped-rectangle validation.
+- Rectangle validation before target clearance.
+- 8 mm adjacent seam-edge clearance after validation.
+- Mode3 adaptive inverse-green segmentation without closing the green mask.
+
+Known limitation:
+- The supplied 7-clubs field image still reaches a safe Mode3 rejection in
+  geometry search. This checkpoint improves its contour input but is not a
+  claim that this specific puzzle now solves.
